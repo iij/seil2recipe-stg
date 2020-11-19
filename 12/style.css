@@ -75,3 +75,4 @@ select:focus {
 .usage-list {
     list-style-type: square;
 }
+textarea { background-color: yellow; }
