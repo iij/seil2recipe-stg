@@ -1271,6 +1271,7 @@ function dhcp_get_interface(conv, iftoken) {
 // https://www.seil.jp/doc/index.html#fn/dhcp/cmd/dhcp_server.html
 Converter.rules['dhcp'] = {
     'disable': (conv, tokens) => {
+        foobar;
         conv.set_memo('dhcp', 'disable');
     },
 
